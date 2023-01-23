@@ -1,0 +1,27 @@
+/* concept: clip path generator */
+#concept-clip-path {
+  height: 200px;
+  background-color: green;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  position: absolute;
+}
+
+/* concept: flexbox */
+#concept-flex {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+/* concept: margin-padding */
+#concept-m-p {
+  height: 350px;
+  width: 500px;
+  background-color: lightgreen;
+  border: 10px solid red;
+  padding: 50px;
+  margin: 20px;
+  margin-top: 100px;
+}
